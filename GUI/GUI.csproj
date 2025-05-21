@@ -137,6 +137,12 @@
     <Compile Include="Forms Admin\FrmEventosAdmin.Designer.cs">
       <DependentUpon>FrmEventosAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmInicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicio2.Designer.cs">
+      <DependentUpon>FrmInicio2.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +197,9 @@
     <EmbeddedResource Include="FrmCambiarPassword.resx">
       <DependentUpon>FrmCambiarPassword.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicio2.resx">
+      <DependentUpon>FrmInicio2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -241,6 +250,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\lakewood.jpg" />
     <None Include="Resources\ChatGPT Image 19 may 2025, 12_45_17.png" />
     <None Include="Resources\1344311.png" />
     <Content Include="Resources\backiee-317009.jpg" />
