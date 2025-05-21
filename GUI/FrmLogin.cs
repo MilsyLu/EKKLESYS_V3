@@ -78,7 +78,7 @@ namespace GUI
         private void lblinkRegistrarse_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             RegistroForm registroForm = new RegistroForm();
-            registroForm.Show();
+            registroForm.ShowDialog();
             this.Hide();
         }
 
@@ -88,6 +88,11 @@ namespace GUI
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
         {
 
         }
