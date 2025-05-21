@@ -84,7 +84,7 @@ namespace GUI
                 dgvCursos.Rows.Clear();
                 foreach (var curso in cursos)
                 {
-                    dgvCursos.Rows.Add(curso.id_curso, curso.nombre_curso, curso.fecha_inicio_curso.ToShortDateString(), curso.fecha_fin_curso.ToShortDateString());
+                    dgvCursos.Rows.Add(curso.nombre_curso, curso.fecha_inicio_curso.ToShortDateString(), curso.fecha_fin_curso.ToShortDateString());
                 }
             }
         }
@@ -97,7 +97,7 @@ namespace GUI
                 dgvEventos.Rows.Clear();
                 foreach (var evento in eventos)
                 {
-                    dgvEventos.Rows.Add(evento.id_evento, evento.nombre_evento, evento.fecha_inicio_evento.ToShortDateString(), evento.fecha_fin_evento.ToShortDateString());
+                    dgvEventos.Rows.Add(evento.nombre_evento, evento.fecha_inicio_evento.ToShortDateString(), evento.fecha_fin_evento.ToShortDateString());
                 }
             }
         }
